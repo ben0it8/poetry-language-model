@@ -4,8 +4,7 @@ This project's goal was to build a poem generator for the 2019 National Poetry D
 This repository contains:
 * the [data](https://github.com/ben0it8/poetry-language-model/tree/master/data) used to train the models (one corpi for each poet),
 * end-to-end training scripts (Jupyter Notebooks),
-* web application in Flask, which was deployed on [Heroku](https://poetry-day.herokuapp.com/).
+* deployable Heroku webapp in Flask used to generate poems (deployed [here](https://poetry-day.herokuapp.com/)).
 
 For training I used [Google Colab](https://colab.research.google.com) and the free GPU runtime.
-
 To generate your own poems, click [here](http://oddnumberofeyes.com/versgenerator/)!
