@@ -1,0 +1,37 @@
+{  
+    "ady":{  
+       "num_lines":8,
+       "min_len":8,
+       "max_len":16
+    },
+    "pilinszky":{  
+       "num_lines":10,
+       "min_len":7,
+       "max_len":10
+    },
+    "karinthy":{  
+       "num_lines":14,
+       "min_len":6,
+       "max_len":8
+    },
+    "arany":{  
+       "num_lines":10,
+       "min_len":6,
+       "max_len":14
+    },
+    "jozsef":{  
+       "num_lines":10,
+       "min_len":6,
+       "max_len":14   
+    },
+    "kassak": {
+       "num_lines": 12,
+       "min_len": 5,
+       "max_len": 12
+    },
+    "petofi": {
+       "num_lines": 12,
+       "min_len": 6,
+       "max_len": 10
+    }
+ }

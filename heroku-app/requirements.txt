@@ -1,0 +1,7 @@
+Flask_Cors==3.0.7
+Flask==1.0.2
+requests==2.21.0
+sentencepiece==0.1.81
+numpy==1.16.2
+https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+gunicorn==19.9.0
