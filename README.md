@@ -8,7 +8,7 @@ To do this, I trained recurrent neural networks (RNNs) on poems modeling languag
 
 This repository contains:
 * the [data](https://github.com/ben0it8/poetry-language-model/tree/master/data) used to train the models (one corpi for each poet),
-* [Jupyter notebooks](https://github.com/ben0it8/poetry-language-model/tree/master/notebooks), implementing end-to-end language model training in PyTorch using the [SentencePiece tokenizer](https://github.com/google/sentencepiece) (data download, preprocessing & model fitting),
-* deployable Heroku [webapp](https://github.com/ben0it8/poetry-language-model/tree/master/heroku-app) in Flask used to generate poems.
+* [Jupyter notebooks](https://github.com/ben0it8/poetry-language-model/tree/master/notebooks), implementing end-to-end language model training in PyTorch using the [SentencePiece tokenizer](https://github.com/google/sentencepiece),
+* deployable Heroku [webapp](https://github.com/ben0it8/poetry-language-model/tree/master/heroku-app) in Flask.
 
 For training I used [Google Colab](https://colab.research.google.com) and the free GPU runtime. Using this repo you should be able to train your own language model on any text data.
