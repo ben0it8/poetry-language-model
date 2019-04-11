@@ -47,6 +47,8 @@ def generate(name, temp=0.55):
 
   model, tokenizer, params = parse_models(name)
   text = generate_text(model, tokenizer, temp=temp, **params)
+  del model, tokenizer
+  import gc; gc.collect() # free up memory after inference is done
   return text
 
 if __name__ == "__main__":
