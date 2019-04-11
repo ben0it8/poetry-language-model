@@ -1,5 +1,5 @@
 # poetry-language-model
-This project's goal was to build a poem generator for the 2019 National Poetry Day in Hungary. Click [here](http://oddnumberofeyes.com/versgenerator/) to generate new poems!
+This project's goal was to build a poem generator for the 2019 National Poetry Day of Hungary. Click [here](http://oddnumberofeyes.com/versgenerator/) to generate new poems!
 
 
 To do this, I trained recurrent neural networks (RNNs) on poems modeling language statistically at subword level. The objective of training a language model is to predict the next word in a sequence given the words that precede it. Ultimately, we end up having a _generative model_ of the given corpus, meaning that we can sample from it - in this case, new poems. Although these samples might resemble to human-written text they are produced by the model entirely. More on RNNs and LMs: [here](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) and [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/).
